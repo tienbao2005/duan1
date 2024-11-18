@@ -110,7 +110,7 @@
     <div class="login-box">
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <a href="<?=BASE_URL?>" class="h1">SHOP THÚ CƯNG</a>
+                <a href="<?=BASE_URL?>" class="h1">Đăng Nhập Admin Quần Áo</a>
             </div>
             <div class="card-body">
             <?php  if(isset($_SESSION['errors'])){?>

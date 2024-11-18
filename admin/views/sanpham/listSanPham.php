@@ -15,7 +15,7 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1>Quản lý thú cưng</h1>
+          <h1>Quản lý Quần Áo</h1>
         </div>
       </div><!-- /.container-fluid -->
   </section>
@@ -28,7 +28,7 @@
           <div class="card">
             <div class="card-header">
               <a href="<?= BASE_URL_ADMIN . '?act=form-them-san-pham' ?>">
-                <button class="btn btn-success">Thêm thú cưng mới</button>
+                <button class="btn btn-success">Thêm Sản Phẩm mới</button>
               </a>
             </div>
             <!-- /.card-header -->

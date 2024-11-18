@@ -10,17 +10,14 @@ public function __construct()
 }
 
   public function home(){
-    echo "đây là home ";
+    require_once './views/home.php';
   }  
   public function trangchu(){
     echo "đây là trangchu ";
 }
 
-public function danhSachSanPham(){
-    $listProduct= $this->modelSanPham->getAllProduct();
-    // var_dump($listProduct);die();
-    require_once './views/listProduct.php'
-}
+
+
 
 
 }
