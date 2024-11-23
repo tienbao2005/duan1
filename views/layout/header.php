@@ -6,12 +6,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>THT-Website Bán Quần Aó Số 1 Việt Nam </title>
+    <title>Website bán thú cưng</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/logo.png" href="assets/img/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/dog.png">
 
     <!-- CSS
 	============================================ -->
@@ -35,5 +35,4 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-
 <body>
