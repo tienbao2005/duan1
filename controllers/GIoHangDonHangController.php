@@ -29,7 +29,6 @@ class GioHangDonHangController
                 } else {
                     $chiTietGioHang = $this->modelGioHang->getDetailGioHang($gioHang['id']);
                 }
-
                 $san_pham_id = $_POST['san_pham_id'];
                 $so_luong = $_POST['so_luong'];
 
