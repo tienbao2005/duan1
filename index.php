@@ -9,11 +9,11 @@ require_once './commons/function.php'; // Hàm hỗ trợ
 require_once './controllers/HomeController.php';
 require_once './controllers/GioHangDonHangController.php';
 // require_once './controllers/SanPhamController.php';
-// require_once './controllers/TaiKhoanController.php';
+require_once './controllers/TaiKhoanController.php';
 
 // Require toàn bộ file Models
 require_once './models/SanPham.php';
-// require_once 'models/TaiKhoan.php';
+require_once 'models/TaiKhoan.php';
 require_once 'models/GioHang.php';
 require_once 'models/DonHang.php';
 
@@ -48,10 +48,10 @@ match ($act) {
 
 
 //     // Người dùng
-//     'form-login' =>(new TaiKhoanController())->formLogin(),
-//     'check-login' =>(new TaiKhoanController())->postLogin(),
+       'form-login' =>(new TaiKhoanController())->formLogin(),
+    'check-login' =>(new TaiKhoanController())->postLogin(),
 
-//     'logout' =>(new TaiKhoanController())->logout(),
+    'logout' =>(new TaiKhoanController())->logout(),
 
 
 //     'form-dang-ky' =>(new TaiKhoanController())->formDangKy(),

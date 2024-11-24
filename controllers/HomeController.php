@@ -11,7 +11,7 @@ class HomeController
     public function __construct()
     {
         $this->modelSanPham = new SanPham();
-    //     $this->modelTaiKhoan = new TaiKhoan();
+        $this->modelTaiKhoan = new TaiKhoan();
     //     $this->modelGioHang = new GioHang();
     //     $this->modelDonHang = new DonHang();
     // }
