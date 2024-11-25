@@ -50,7 +50,7 @@ class GioHangDonHangController
             }
         }
     }
-
+//dhbsd
     public function gioHang()
     {
         $listDanhMuc = $this->modelSanPham->getAllDanhMuc();

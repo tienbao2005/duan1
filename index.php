@@ -54,16 +54,16 @@ match ($act) {
     'logout' =>(new TaiKhoanController())->logout(),
 
 
-//     'form-dang-ky' =>(new TaiKhoanController())->formDangKy(),
-//     'dang-ky' =>(new TaiKhoanController())->dangKy(),
+    'form-dang-ky' =>(new TaiKhoanController())->formDangKy(),
+    'dang-ky' =>(new TaiKhoanController())->dangKy(),
 
-//     'quan-ly-tai-khoan' =>(new TaiKhoanController())->suaTaiKhoan(),
-//     'sua-thong-tin-ca-nhan' =>(new TaiKhoanController())->suaThongTinCaNhan(),
-//     'sua-mat-khau' =>(new TaiKhoanController())->suaMatKhau(),
-//     'sua-anh-tai-khoan' =>(new TaiKhoanController())->suaAnhTaiKhoan(),
+    'quan-ly-tai-khoan' =>(new TaiKhoanController())->suaTaiKhoan(),
+    'sua-thong-tin-ca-nhan' =>(new TaiKhoanController())->suaThongTinCaNhan(),
+    'sua-mat-khau' =>(new TaiKhoanController())->suaMatKhau(),
+    'sua-anh-tai-khoan' =>(new TaiKhoanController())->suaAnhTaiKhoan(),
 
-//     'quen-mat-khau' =>(new TaiKhoanController())->quenMatKhau(),
-//     'lay-mat-khau' =>(new TaiKhoanController())->layMatKhau(),
+    'quen-mat-khau' =>(new TaiKhoanController())->quenMatKhau(),
+    'lay-mat-khau' =>(new TaiKhoanController())->layMatKhau(),
  
 
 
