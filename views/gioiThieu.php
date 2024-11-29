@@ -55,9 +55,38 @@ body {
     font-size: 1rem;
     color: #333;
 }
+.right-main {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+.right-main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.right-main p {
+    font-size: 1rem;
+    color: #333;
+}
     </style>
 
     <div class="container">
+    <div class="product">
+            <div class="left">
+            <a href="<?=BASE_URL?>">
+                <img src="Image/logo.png" alt="product ">
+             </a>
+            </div>
+            <div class="right-main">
+                <h2>Hãng Thời Trang Đỉnh Cao TH Store</h2>
+                <p>
+                Chào mừng bạn đến với TH Store, cửa hàng thời trang được thành lập vào ngày 10/10/2022. Chúng tôi tự hào mang đến cho khách hàng những sản phẩm thời trang hiện đại, phong cách và chất lượng cao, phù hợp với mọi lứa tuổi và xu hướng. Với tầm nhìn tạo nên một không gian mua sắm đầy cảm hứng, chúng tôi luôn chú trọng đến sự hài lòng của khách hàng và không ngừng đổi mới để đáp ứng nhu cầu ngày càng đa dạng. Hãy đến và trải nghiệm phong cách thời trang độc đáo tại TH Store!
+                </p>
+            </div>
+        </div>
         <!-- Product 1 -->
         <div class="product">
             <div class="left">
